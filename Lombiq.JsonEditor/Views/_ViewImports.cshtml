@@ -1,0 +1,15 @@
+@inherits OrchardCore.DisplayManagement.Razor.RazorPage<TModel>
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, OrchardCore.Contents.TagHelpers
+@addTagHelper *, OrchardCore.DisplayManagement
+@addTagHelper *, OrchardCore.ResourceManagement
+@addTagHelper *, Lombiq.JsonEditor
+
+@using Lombiq.JsonEditor.Constants
+@using Lombiq.JsonEditor.Models
+@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Text.Json
+@using System.Text.Json.Nodes
+@using System.Text.Json.Serialization
+@using OrchardCore.Mvc.Core.Utilities
